@@ -1,0 +1,97 @@
+let tekst='test'
+undefined
+tekst
+"test"
+tekst='test123'
+"test123"
+tekst
+"test123"
+const tekst_2 = 'test2'
+undefined
+tekst_2='test321'
+tekst.charAt(2);zwraca dany znak z danej zmiennej z danej pozycji
+"s"
+tekst.charCodeAt(2);
+115-unicode
+tekst.includes('st');
+true
+let zmienna "hello world"
+zmienna.split('');
+hello, world
+0: hello
+1:world
+lenght:2
+zmeinna.split('l')
+he, "", "o wor", "d"
+zmienna.toUpperCase();
+HELLO WORLD
+zmienna.toLowerCase();
+hello world
+zmienna.trim() - wycina biale znaki;
+zmienna ="kota";
+'ala ma ${zmienna};
+ala ma kota
+
+
+let number = 2.5
+
+const x = new Number(10);
+const y =10;
+ x===y 
+false
+
+x==y
+true
+
+Number.isFinite(120);
+true
+
+let liczba = 1.1234
+liczba.toFixed(2)
+1.12
+
+Math.floor(3.16)
+3
+
+Math.random();
+0.15125142569
+
+let boolean = true
+boolean
+true
+boolean= false;
+false
+
+Boolean('test')
+true
+Boolean('')
+false
+Boolean({})
+true
+Boolean(0)
+false
+
+let tablica = [1,2,3,4,5,'six',true]
+tablica
+[1,2,3,4,5,'six',true]
+tablica.lenght
+7
+if(true){console.log('test')}
+test
+if(0){console.log('test')}
+undefined
+if(tablica.lenght){console.log('test')}
+test
+tablica.join()
+"1,2,3,4,5,'six',true"
+
+tablica=[1,2,3,4,5]
+const tablica2.map((wartosc,index)=>{ return wartosc+index})
+[1,3,5,7,9]
+tablica.forEach((wartosc)=>{console.log(wartosc)})
+tablica[0] = 10
+[10,3,5,7,9]
+
+
+
+
