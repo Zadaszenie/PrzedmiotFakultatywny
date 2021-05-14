@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Home from './views/home/home';
+import Home from './views/home/Home';
 import Movie from './views/movie/movie';
 import Page404 from './views/404page/PageNotFound';
 
